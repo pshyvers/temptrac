@@ -85,9 +85,9 @@ void main(void){
     
     while(1){
         __bis_SR_register(LPM3_bits + GIE);
-        if ( i == 1512 ){
+        if ( i == 0xE8 ){
             Write(tempRaw);
-          i = 0;
+            i = 0;
         } else {
           i++;
         }        
@@ -233,7 +233,7 @@ void ConfigTimerA2(void){
 // WDT interrupt service routine
 #pragma vector=WDT_VECTOR
 __interrupt void WDT(void){
-    if ( i == 1512 ){
+    if ( i == 0xE8 ){
         ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON;
         __delay_cycles(500);                 // Wait for ADC Ref to settle  
         ADC10CTL0 |= ENC + ADC10SC;          // Sampling and conversion start

@@ -14,7 +14,7 @@
  <EEMTriggersWindow/>
  <ExecutionCountWindow/>
  <Memory1>
-  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+  <MemoryWindow autoEvaluate="0" addressText="0x1000" numColumns="8" sizeText="0x100" dataSize="1" radix="16" addressSpace="" />
  </Memory1>
  <Memory2>
   <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
@@ -59,7 +59,7 @@
   <Watches active="0" update="Never" />
  </Watch4>
  <Files>
-  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac\temptrac.c" y="0" path="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac\temptrac.c" left="0" selected="1" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\pshyvers\Code\temptrac\temptrac.c" y="87" path="C:\Users\pshyvers\Code\temptrac\temptrac.c" left="0" selected="1" name="unnamed" top="48" />
  </Files>
- <MSP430CrossStudioWindow activeProject="temptrac" autoConnectTarget="" debugSearchFileMap="" fileDialogInitialDirectory="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac.git" fileDialogDefaultFilter="*.c" autoConnectCapabilities="0" debugSearchPath="" buildConfiguration="MSP430 Debug" />
+ <MSP430CrossStudioWindow activeProject="temptrac" autoConnectTarget="TI eZ430" debugSearchFileMap="" fileDialogInitialDirectory="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac.git" fileDialogDefaultFilter="*.c" autoConnectCapabilities="525695" debugSearchPath="" buildConfiguration="MSP430 Debug" />
 </session>
