@@ -27,6 +27,8 @@
  </Memory4>
  <Project>
   <ProjectSessionItem path="temptrac" name="unnamed" />
+  <ProjectSessionItem path="temptrac;temptrac" name="unnamed" />
+  <ProjectSessionItem path="temptrac;temptrac;Source Files" name="unnamed" />
  </Project>
  <Register1>
   <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
@@ -56,6 +58,8 @@
  <Watch4>
   <Watches active="0" update="Never" />
  </Watch4>
- <Files/>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac\temptrac.c" y="0" path="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac\temptrac.c" left="0" selected="1" name="unnamed" top="0" />
+ </Files>
  <MSP430CrossStudioWindow activeProject="temptrac" autoConnectTarget="" debugSearchFileMap="" fileDialogInitialDirectory="C:\Users\pshyvers\Documents\CrossWorks Projects\temptrac.git" fileDialogDefaultFilter="*.c" autoConnectCapabilities="0" debugSearchPath="" buildConfiguration="MSP430 Debug" />
 </session>
